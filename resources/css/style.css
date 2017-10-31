@@ -39,6 +39,12 @@ nav a {
   margin-right: 30px;
 }
 
+html {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 #largecolumn {
   flex-direction: column;
   width: 630px;
@@ -52,4 +58,38 @@ nav a {
 #smallcolumn {
   flex-direction: column;
   width: 240px;
+}
+
+#phishtitle, #earth, #cameras, #catstitle {
+  display: flex;
+}
+
+#phishtitle p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+#earth p, #cameras p, #catstitle p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#phishtitle {
+  background-image: url(../images/MainStory.png);
+}
+
+#earth {
+  background-image: url(../images/Fall.png);
+}
+
+#cameras {
+  background-image: url(../images/Cameraman.png);
+}
+
+#catstitle {
+  background-image: url(../images/CatCEO.png);
 }
