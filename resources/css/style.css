@@ -96,7 +96,6 @@ html {
   font-size: 17px;
   color: black;
 }
-
 #stories {
   display: flex;
   flex-wrap: wrap;
@@ -126,4 +125,36 @@ html {
   color: DimGray;
   padding: 10px 20px;
   border-bottom: 1px solid black;
+}
+
+#footer {
+  display: block;
+  margin: auto;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  align-content: center;
+  padding: 100px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar h4 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+}
+
+#navbar nav span {
+  margin: 10px;
+}
+
+#copyright {
+  text-align: center;
 }
