@@ -34,15 +34,13 @@ nav a {
   display: inline-flex;
 }
 
-#content div {
+#content .column {
   margin-top: 30px;
   margin-right: 30px;
 }
 
 html {
   font-family: Georgia;
-  font-size: 17px;
-  color: black;
 }
 
 #largecolumn {
@@ -60,25 +58,7 @@ html {
   width: 240px;
 }
 
-#phishtitle, #earth, #cameras, #catstitle {
-  display: flex;
-}
-
-#phishtitle p {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 40px;
-  color: white;
-}
-
-#earth p, #cameras p, #catstitle p {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-
-#phishtitle {
+#phish {
   background-image: url(../images/MainStory.png);
 }
 
@@ -90,6 +70,33 @@ html {
   background-image: url(../images/Cameraman.png);
 }
 
-#catstitle {
+#cats {
   background-image: url(../images/CatCEO.png);
+}
+
+.imghead {
+  display: flex;
+  height: 300px;
+}
+
+.imghead p, .story .imghead p {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.story p {
+  font-size: 17px;
+  color: black;
+}
+
+#stories {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 600px;
+}
+
+.story {
+  width: 300px;
 }
