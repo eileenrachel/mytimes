@@ -79,10 +79,17 @@ html {
   height: 300px;
 }
 
-.imghead p, .story .imghead p {
+#MainStory .imghead p {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.story .imghead p {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 .story p {
@@ -94,7 +101,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 600px;
+  height: 535px;
 }
 
 .story {
